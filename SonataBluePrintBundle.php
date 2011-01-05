@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Bundle\BluePrintBundle;
+namespace Bundle\Sonata\BluePrintBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class BluePrintBundle extends Bundle {
+class SonataBluePrintBundle extends Bundle {
 
 }
