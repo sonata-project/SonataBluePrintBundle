@@ -12,20 +12,7 @@ namespace Sonata\BluePrintBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SonataBluePrintBundle extends Bundle {
-    /**
-     * {@inheritdoc}
-     */
-    public function getNamespace()
-    {
-        return __NAMESPACE__;
-    }
+class SonataBluePrintBundle extends Bundle
+{
 
-    /**
-     * {@inheritdoc}
-     */
-    public function getPath()
-    {
-        return strtr(__DIR__, '\\', '/');
-    }
 }
