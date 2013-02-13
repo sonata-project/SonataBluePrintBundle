@@ -1,0 +1,27 @@
+{
+    "name": "sonata-project/blueprint-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony SonataBluePrintBundle",
+    "keywords": ["Blueprint", "sonata"],
+    "homepage": "http://sonata-project.org/bundles/blueprint",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rabaix",
+            "email": "thomas.rabaix@sonata-project.org",
+            "homepage": "http://sonata-project.org"
+        },
+        {
+            "name": "Sonata Community",
+            "homepage": "https://github.com/sonata-project/SonataBluePrintBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Sonata\\BluePrintBundle": "" }
+    },
+    "target-dir": "Sonata/BluePrintBundle"
+}
